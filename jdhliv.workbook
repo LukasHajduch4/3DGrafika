@@ -54,12 +54,14 @@
                     "type": "open",
                     "node": {
                       "id": 7,
-                      "value": "F ∃y f(f(f(a))) ≐ f(f(f(f(y))))",
-                      "references": []
+                      "value": "F f(f(f(a))) ≐ f(f(f(f(b))))",
+                      "references": [
+                        "5"
+                      ]
                     }
                   },
                   "substitution": {
-                    "str": ""
+                    "str": "y->b"
                   }
                 },
                 "substitution": {
