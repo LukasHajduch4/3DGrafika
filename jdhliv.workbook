@@ -441,7 +441,7 @@
                             ]
                           },
                           "child": {
-                            "type": "open",
+                            "type": "gamma",
                             "node": {
                               "id": 11,
                               "value": "T f(f(f(a))) ≐ f(f(a)) ",
@@ -449,6 +449,17 @@
                                 "9",
                                 "10"
                               ]
+                            },
+                            "child": {
+                              "type": "open",
+                              "node": {
+                                "id": 12,
+                                "value": "F f(f(f(a))) ≐ f(f(f(f(y))))",
+                                "references": []
+                              }
+                            },
+                            "substitution": {
+                              "str": ""
                             }
                           }
                         },
