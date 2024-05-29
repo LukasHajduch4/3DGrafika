@@ -404,13 +404,21 @@
                     ]
                   },
                   "child": {
-                    "type": "open",
+                    "type": "mp",
                     "node": {
                       "id": 7,
-                      "value": "T ∀x ( P(f(f(f(a)))) → ∃y Q(x, f(f(f(f(y))))) )",
+                      "value": "T ( P(f(f(f(a)))) → ∃y Q(f(f(a)), f(f(f(f(y))))) )",
                       "references": [
                         "2"
                       ]
+                    },
+                    "child": {
+                      "type": "open",
+                      "node": {
+                        "id": 8,
+                        "value": "",
+                        "references": []
+                      }
                     }
                   },
                   "substitution": {
