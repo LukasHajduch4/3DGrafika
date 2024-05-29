@@ -515,7 +515,7 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "",
+      "data": "❌NEDOBRE",
       "idCounter": 0,
       "comments": {
         "ids": [],
