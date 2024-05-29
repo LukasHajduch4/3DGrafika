@@ -79,13 +79,29 @@
                           ]
                         },
                         "child": {
-                          "type": "open",
+                          "type": "beta",
                           "node": {
                             "id": 10,
                             "value": "T ( Q(a, f(b)) → f(a) ≐ a )",
                             "references": [
                               "3"
                             ]
+                          },
+                          "leftChild": {
+                            "type": "open",
+                            "node": {
+                              "id": 11,
+                              "value": "T Q(a, f(b))",
+                              "references": []
+                            }
+                          },
+                          "rightChild": {
+                            "type": "open",
+                            "node": {
+                              "id": 12,
+                              "value": "",
+                              "references": []
+                            }
                           }
                         },
                         "substitution": {
