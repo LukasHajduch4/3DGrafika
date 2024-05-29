@@ -511,11 +511,22 @@
         "ids": [],
         "entities": {}
       }
+    },
+    "8": {
+      "id": 8,
+      "type": "text",
+      "data": "",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      }
     }
   },
   "cellsOrder": [
     1,
     7,
+    8,
     2,
     3,
     4,
