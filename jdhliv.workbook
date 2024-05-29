@@ -423,13 +423,26 @@
                         ]
                       },
                       "child": {
-                        "type": "open",
+                        "type": "gammaStar",
                         "node": {
                           "id": 9,
                           "value": "T Q(f(f(a)), f(f(f(f(b)))))",
                           "references": [
                             "8"
                           ]
+                        },
+                        "child": {
+                          "type": "open",
+                          "node": {
+                            "id": 10,
+                            "value": "",
+                            "references": [
+                              "3"
+                            ]
+                          }
+                        },
+                        "substitution": {
+                          "str": "x->f(f(a)),y->"
                         }
                       },
                       "substitution": {
