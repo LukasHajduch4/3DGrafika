@@ -463,7 +463,7 @@
                                 "type": "open",
                                 "node": {
                                   "id": 13,
-                                  "value": "",
+                                  "value": "T f(f(f(f(a)))) =  f(f(f(f(a))))",
                                   "references": []
                                 }
                               }
