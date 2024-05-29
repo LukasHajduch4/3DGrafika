@@ -460,11 +460,22 @@
                                 ]
                               },
                               "child": {
-                                "type": "open",
+                                "type": "leibnitz",
                                 "node": {
                                   "id": 13,
                                   "value": "T f(f(f(f(a)))) =  f(f(f(f(a))))",
                                   "references": []
+                                },
+                                "child": {
+                                  "type": "open",
+                                  "node": {
+                                    "id": 14,
+                                    "value": "",
+                                    "references": [
+                                      "11",
+                                      "13"
+                                    ]
+                                  }
                                 }
                               }
                             },
