@@ -102,13 +102,29 @@
                             ]
                           },
                           "rightChild": {
-                            "type": "open",
+                            "type": "beta",
                             "node": {
                               "id": 12,
                               "value": "T  f(f(a)) ≐ f(a)",
                               "references": [
                                 "10"
                               ]
+                            },
+                            "leftChild": {
+                              "type": "open",
+                              "node": {
+                                "id": 13,
+                                "value": "",
+                                "references": []
+                              }
+                            },
+                            "rightChild": {
+                              "type": "open",
+                              "node": {
+                                "id": 14,
+                                "value": "",
+                                "references": []
+                              }
                             }
                           }
                         },
