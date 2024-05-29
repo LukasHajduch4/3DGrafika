@@ -253,14 +253,14 @@
                           "type": "open",
                           "node": {
                             "id": 11,
-                            "value": "T ∀x ∀y ( Q(x, f(y)) → f(x) ≐ x )",
+                            "value": "T( Q(f(a), f(f(f(f(b))))) → f(f(a)) ≐ f(a) )",
                             "references": [
                               "3"
                             ]
                           }
                         },
                         "substitution": {
-                          "str": "x->f(a), y->"
+                          "str": "x->f(a), y->f(f(f(y)))"
                         }
                       },
                       "substitution": {
