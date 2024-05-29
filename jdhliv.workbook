@@ -82,7 +82,7 @@
                           "type": "beta",
                           "node": {
                             "id": 10,
-                            "value": "T ( Q(a, f(b)) → f(a) ≐ a )",
+                            "value": "T ( Q(f(a), f(b)) → f(f(a)) ≐ f(a) )",
                             "references": [
                               "3"
                             ]
@@ -109,7 +109,7 @@
                           }
                         },
                         "substitution": {
-                          "str": "x->a, y->b"
+                          "str": "x->f(a), y->b"
                         }
                       },
                       "substitution": {
