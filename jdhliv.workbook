@@ -33,13 +33,37 @@
                 "references": []
               },
               "child": {
-                "type": "open",
+                "type": "gamma",
                 "node": {
                   "id": 5,
                   "value": "F ∃y f(f(f(a))) ≐ f(f(f(f(y))))",
                   "references": [
                     "4"
                   ]
+                },
+                "child": {
+                  "type": "gamma",
+                  "node": {
+                    "id": 6,
+                    "value": "T P(f(f(a)))",
+                    "references": [
+                      "1"
+                    ]
+                  },
+                  "child": {
+                    "type": "open",
+                    "node": {
+                      "id": 7,
+                      "value": "F ∃y f(f(f(a))) ≐ f(f(f(f(y))))",
+                      "references": []
+                    }
+                  },
+                  "substitution": {
+                    "str": ""
+                  }
+                },
+                "substitution": {
+                  "str": "x->a"
                 }
               },
               "substitution": {
