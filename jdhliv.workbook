@@ -5,13 +5,29 @@
       "id": 1,
       "type": "tableauEditor",
       "data": {
-        "type": "open",
+        "type": "assumption",
         "node": {
           "id": 1,
           "value": "T ∀x P(f(f(x)))",
           "references": []
         },
-        "config": "Basic propositional"
+        "child": {
+          "type": "assumption",
+          "node": {
+            "id": 2,
+            "value": "T forallx (P(f(x)) exists yQ(x, f(f(f(f(y)))))))",
+            "references": []
+          },
+          "child": {
+            "type": "open",
+            "node": {
+              "id": 3,
+              "value": "",
+              "references": []
+            }
+          }
+        },
+        "config": "Full FOL"
       },
       "idCounter": 0,
       "comments": {
