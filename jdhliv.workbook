@@ -405,7 +405,7 @@
                   }
                 },
                 "substitution": {
-                  "str": "x->"
+                  "str": "x->f(a)"
                 }
               },
               "substitution": {
