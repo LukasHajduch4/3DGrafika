@@ -88,20 +88,24 @@
                             ]
                           },
                           "leftChild": {
-                            "type": "open",
+                            "type": "closed",
                             "node": {
                               "id": 11,
                               "value": "F Q(f(a), f(f(f(f(b)))))",
                               "references": [
                                 "10"
                               ]
-                            }
+                            },
+                            "closed": [
+                              "11",
+                              "9"
+                            ]
                           },
                           "rightChild": {
                             "type": "open",
                             "node": {
                               "id": 12,
-                              "value": "T  f(a) ≐ a",
+                              "value": "T  f(f(a)) ≐ f(a)",
                               "references": [
                                 "10"
                               ]
