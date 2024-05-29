@@ -63,7 +63,7 @@
                       "type": "open",
                       "node": {
                         "id": 8,
-                        "value": "T ( P(f(f(a))) → ∃y Q(a, f(f(f(f(y))))) )",
+                        "value": "T ( P(f(f(a))) → ∃y Q(f(a), f(f(f(f(y))))) )",
                         "references": [
                           "2"
                         ]
