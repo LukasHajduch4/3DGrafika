@@ -19,11 +19,19 @@
             "references": []
           },
           "child": {
-            "type": "open",
+            "type": "assumption",
             "node": {
               "id": 3,
-              "value": "\\forall x \\forall y( Q(x, f(y)) -> f(x) = x)",
+              "value": "T ∀x ∀y ( Q(x, f(y)) → f(x) ≐ x )",
               "references": []
+            },
+            "child": {
+              "type": "open",
+              "node": {
+                "id": 4,
+                "value": "F ∀x ∃y f(f(f(x))) ≐ f(f(f(f(y))))",
+                "references": []
+              }
             }
           }
         },
