@@ -26,11 +26,24 @@
               "references": []
             },
             "child": {
-              "type": "open",
+              "type": "delta",
               "node": {
                 "id": 4,
                 "value": "F ∀x ∃y f(f(f(x))) ≐ f(f(f(f(y))))",
                 "references": []
+              },
+              "child": {
+                "type": "open",
+                "node": {
+                  "id": 5,
+                  "value": "F ∃y f(f(f(a))) ≐ f(f(f(f(y))))",
+                  "references": [
+                    "4"
+                  ]
+                }
+              },
+              "substitution": {
+                "str": "x->a"
               }
             }
           }
