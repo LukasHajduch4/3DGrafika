@@ -241,15 +241,30 @@
                         ]
                       },
                       "child": {
-                        "type": "open",
+                        "type": "gammaStar",
                         "node": {
                           "id": 10,
-                          "value": "T Q(f(a), f(f(f(f(y)))))",
-                          "references": []
+                          "value": "T Q(f(a), f(f(f(f(b)))))",
+                          "references": [
+                            "9"
+                          ]
+                        },
+                        "child": {
+                          "type": "open",
+                          "node": {
+                            "id": 11,
+                            "value": "T ∀x ∀y ( Q(x, f(y)) → f(x) ≐ x )",
+                            "references": [
+                              "3"
+                            ]
+                          }
+                        },
+                        "substitution": {
+                          "str": ""
                         }
                       },
                       "substitution": {
-                        "str": ""
+                        "str": "y->b"
                       }
                     }
                   },
