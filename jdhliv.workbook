@@ -435,14 +435,14 @@
                           "type": "open",
                           "node": {
                             "id": 10,
-                            "value": "",
+                            "value": "T ( Q(f(f(a)), f(y)) → f(f(f(f(b)))) ≐ x )",
                             "references": [
                               "3"
                             ]
                           }
                         },
                         "substitution": {
-                          "str": "x->f(f(a)),y->"
+                          "str": "x->f(f(a)),y->f(f(f(b)))"
                         }
                       },
                       "substitution": {
