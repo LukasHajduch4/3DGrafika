@@ -82,7 +82,7 @@
                           "type": "beta",
                           "node": {
                             "id": 10,
-                            "value": "T ( Q(f(a), f(b)) → f(f(a)) ≐ f(a) )",
+                            "value": "T ( Q(f(a), f(f(f(f(b))))) → f(f(a)) ≐ f(a) )",
                             "references": [
                               "3"
                             ]
@@ -91,7 +91,7 @@
                             "type": "open",
                             "node": {
                               "id": 11,
-                              "value": "F Q(a, f(b))",
+                              "value": "F Q(f(a), f(f(f(f(b)))))",
                               "references": [
                                 "10"
                               ]
@@ -109,7 +109,7 @@
                           }
                         },
                         "substitution": {
-                          "str": "x->f(a), y->b"
+                          "str": "x->f(a), y->f(f(f(b)))"
                         }
                       },
                       "substitution": {
