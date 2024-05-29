@@ -432,13 +432,24 @@
                           ]
                         },
                         "child": {
-                          "type": "open",
+                          "type": "mp",
                           "node": {
                             "id": 10,
                             "value": "T ( Q(f(f(a)), f(f(f(f(b))))) → f(f(f(a))) ≐ f(f(a)) )",
                             "references": [
                               "3"
                             ]
+                          },
+                          "child": {
+                            "type": "open",
+                            "node": {
+                              "id": 11,
+                              "value": "T f(f(f(a))) ≐ f(f(a)) ",
+                              "references": [
+                                "9",
+                                "10"
+                              ]
+                            }
                           }
                         },
                         "substitution": {
