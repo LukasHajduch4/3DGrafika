@@ -398,7 +398,7 @@
                   "type": "open",
                   "node": {
                     "id": 6,
-                    "value": "T P(f(f(a)))",
+                    "value": "T P(f(f(f(a))))",
                     "references": [
                       "1"
                     ]
