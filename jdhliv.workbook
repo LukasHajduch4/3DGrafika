@@ -426,12 +426,14 @@
                         "type": "open",
                         "node": {
                           "id": 9,
-                          "value": "T Q(f(f(a)), f(f(f(f(y)))))",
-                          "references": []
+                          "value": "T Q(f(f(a)), f(f(f(f(b)))))",
+                          "references": [
+                            "8"
+                          ]
                         }
                       },
                       "substitution": {
-                        "str": ""
+                        "str": "y->b"
                       }
                     }
                   },
