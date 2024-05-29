@@ -15,7 +15,7 @@
           "type": "assumption",
           "node": {
             "id": 2,
-            "value": "T forallx (P(f(x)) exists yQ(x, f(f(f(f(y)))))))",
+            "value": "T \\A x (P(f(x)) -> \\E y (Q(x, f(f(f(f(y)))))",
             "references": []
           },
           "child": {
