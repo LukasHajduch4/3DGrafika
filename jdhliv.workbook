@@ -413,11 +413,25 @@
                       ]
                     },
                     "child": {
-                      "type": "open",
+                      "type": "delta",
                       "node": {
                         "id": 8,
-                        "value": "",
-                        "references": []
+                        "value": "T ∃y Q(f(f(a)), f(f(f(f(y)))))",
+                        "references": [
+                          "6",
+                          "7"
+                        ]
+                      },
+                      "child": {
+                        "type": "open",
+                        "node": {
+                          "id": 9,
+                          "value": "T Q(f(f(a)), f(f(f(f(y)))))",
+                          "references": []
+                        }
+                      },
+                      "substitution": {
+                        "str": ""
                       }
                     }
                   },
