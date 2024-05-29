@@ -407,12 +407,14 @@
                     "type": "open",
                     "node": {
                       "id": 7,
-                      "value": "F  f(f(f(a))) ≐ f(f(f(f(y))))",
-                      "references": []
+                      "value": "T ∀x ( P(f(f(f(a)))) → ∃y Q(x, f(f(f(f(y))))) )",
+                      "references": [
+                        "2"
+                      ]
                     }
                   },
                   "substitution": {
-                    "str": ""
+                    "str": "x->f(f(a))"
                   }
                 },
                 "substitution": {
