@@ -323,11 +323,22 @@
         "ids": [],
         "entities": {}
       }
+    },
+    "4": {
+      "id": 4,
+      "type": "resolutionEditor",
+      "data": null,
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      }
     }
   },
   "cellsOrder": [
     1,
     2,
-    3
+    3,
+    4
   ]
 }
