@@ -521,10 +521,21 @@
         "ids": [],
         "entities": {}
       }
+    },
+    "9": {
+      "id": 9,
+      "type": "text",
+      "data": "",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      }
     }
   },
   "cellsOrder": [
     1,
+    9,
     7,
     8,
     2,
