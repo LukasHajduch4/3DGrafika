@@ -91,16 +91,20 @@
                             "type": "open",
                             "node": {
                               "id": 11,
-                              "value": "T Q(a, f(b))",
-                              "references": []
+                              "value": "F Q(a, f(b))",
+                              "references": [
+                                "10"
+                              ]
                             }
                           },
                           "rightChild": {
                             "type": "open",
                             "node": {
                               "id": 12,
-                              "value": "",
-                              "references": []
+                              "value": "T  f(a) ≐ a",
+                              "references": [
+                                "10"
+                              ]
                             }
                           }
                         },
