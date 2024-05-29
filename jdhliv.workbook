@@ -209,7 +209,7 @@
                     ]
                   },
                   "child": {
-                    "type": "mp",
+                    "type": "beta",
                     "node": {
                       "id": 7,
                       "value": "T ( P(f(f(a))) → ∃y Q(f(a), f(f(f(f(y))))) )",
@@ -217,81 +217,22 @@
                         "2"
                       ]
                     },
-                    "child": {
-                      "type": "delta",
+                    "leftChild": {
+                      "type": "open",
                       "node": {
                         "id": 8,
-                        "value": "T ∃y Q(f(a), f(f(f(f(y))))) ",
+                        "value": "F P(f(f(a)))",
                         "references": [
-                          "6",
                           "7"
                         ]
-                      },
-                      "child": {
-                        "type": "gammaStar",
-                        "node": {
-                          "id": 9,
-                          "value": "T Q(f(a), f(f(f(f(b))))) ",
-                          "references": [
-                            "8"
-                          ]
-                        },
-                        "child": {
-                          "type": "beta",
-                          "node": {
-                            "id": 10,
-                            "value": "T ( Q(f(a), f(f(f(f(b))))) → f(f(a)) ≐ f(a) )",
-                            "references": [
-                              "3"
-                            ]
-                          },
-                          "leftChild": {
-                            "type": "closed",
-                            "node": {
-                              "id": 11,
-                              "value": "F Q(f(a), f(f(f(f(b)))))",
-                              "references": [
-                                "10"
-                              ]
-                            },
-                            "closed": [
-                              "11",
-                              "9"
-                            ]
-                          },
-                          "rightChild": {
-                            "type": "beta",
-                            "node": {
-                              "id": 12,
-                              "value": "T  f(f(a)) ≐ f(a)",
-                              "references": [
-                                "10"
-                              ]
-                            },
-                            "leftChild": {
-                              "type": "open",
-                              "node": {
-                                "id": 13,
-                                "value": "",
-                                "references": []
-                              }
-                            },
-                            "rightChild": {
-                              "type": "open",
-                              "node": {
-                                "id": 14,
-                                "value": "",
-                                "references": []
-                              }
-                            }
-                          }
-                        },
-                        "substitution": {
-                          "str": "x->f(a), y->f(f(f(b)))"
-                        }
-                      },
-                      "substitution": {
-                        "str": "y->b"
+                      }
+                    },
+                    "rightChild": {
+                      "type": "open",
+                      "node": {
+                        "id": 9,
+                        "value": "",
+                        "references": []
                       }
                     }
                   },
