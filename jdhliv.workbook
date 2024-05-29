@@ -535,7 +535,7 @@
     "10": {
       "id": 10,
       "type": "text",
-      "data": "",
+      "data": "DOBRE",
       "idCounter": 0,
       "comments": {
         "ids": [],
