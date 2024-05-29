@@ -435,7 +435,7 @@
                           "type": "open",
                           "node": {
                             "id": 10,
-                            "value": "T ( Q(f(f(a)), f(y)) → f(f(f(f(b)))) ≐ x )",
+                            "value": "T ( Q(f(f(a)), f(f(f(f(b))))) → f(f(f(a))) ≐ f(f(a)) )",
                             "references": [
                               "3"
                             ]
