@@ -260,7 +260,7 @@
                           }
                         },
                         "substitution": {
-                          "str": ""
+                          "str": "x->f(a), y->"
                         }
                       },
                       "substitution": {
