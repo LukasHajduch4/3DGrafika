@@ -451,13 +451,21 @@
                               ]
                             },
                             "child": {
-                              "type": "open",
+                              "type": "refl",
                               "node": {
                                 "id": 12,
                                 "value": "F f(f(f(a))) ≐ f(f(f(f(a))))",
                                 "references": [
                                   "5"
                                 ]
+                              },
+                              "child": {
+                                "type": "open",
+                                "node": {
+                                  "id": 13,
+                                  "value": "T f(f(a)) =  f(f(f(f(a))))",
+                                  "references": []
+                                }
                               }
                             },
                             "substitution": {
