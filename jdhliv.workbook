@@ -63,14 +63,14 @@
                       "type": "open",
                       "node": {
                         "id": 8,
-                        "value": "T ( P(f(x)) → ∃y Q(x, f(f(f(f(y))))) )",
+                        "value": "T ( P(f(f(a))) → ∃y Q(a, f(f(f(f(y))))) )",
                         "references": [
                           "2"
                         ]
                       }
                     },
                     "substitution": {
-                      "str": "x->a"
+                      "str": "x->f(a)"
                     }
                   },
                   "substitution": {
