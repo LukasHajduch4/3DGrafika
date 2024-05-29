@@ -15,14 +15,14 @@
           "type": "assumption",
           "node": {
             "id": 2,
-            "value": "T \\A x (P(f(x)) -> \\E y (Q(x, f(f(f(f(y)))))",
+            "value": "T ∀x ( P(f(x)) → ∃y Q(x, f(f(f(f(y))))) )",
             "references": []
           },
           "child": {
             "type": "open",
             "node": {
               "id": 3,
-              "value": "",
+              "value": "\\forall x \\forall y( Q(x, f(y)) -> f(x) = x)",
               "references": []
             }
           }
