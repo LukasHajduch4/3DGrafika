@@ -4,7 +4,15 @@
     "1": {
       "id": 1,
       "type": "tableauEditor",
-      "data": null,
+      "data": {
+        "type": "open",
+        "node": {
+          "id": 1,
+          "value": "T ∀x P(f(f(x)))",
+          "references": []
+        },
+        "config": "Basic propositional"
+      },
       "idCounter": 0,
       "comments": {
         "ids": [],
