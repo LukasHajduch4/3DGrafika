@@ -578,7 +578,23 @@
     "14": {
       "id": 14,
       "type": "tableauEditor",
-      "data": null,
+      "data": {
+        "type": "assumption",
+        "node": {
+          "id": 1,
+          "value": "T \\A x g(f(x)) = x",
+          "references": []
+        },
+        "child": {
+          "type": "open",
+          "node": {
+            "id": 2,
+            "value": "",
+            "references": []
+          }
+        },
+        "config": "Basic propositional"
+      },
       "idCounter": 0,
       "comments": {
         "ids": [],
