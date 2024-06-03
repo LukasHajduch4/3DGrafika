@@ -589,14 +589,14 @@
           "type": "assumption",
           "node": {
             "id": 2,
-            "value": "T \\A x g(f(x)) = x",
+            "value": "T \\A x \\A y g(x) = g(y) ",
             "references": []
           },
           "child": {
             "type": "open",
             "node": {
               "id": 3,
-              "value": "F  \\A x = f(g(x))",
+              "value": "F  \\A x (x = f(g(x)))",
               "references": []
             }
           }
