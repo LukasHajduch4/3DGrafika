@@ -548,7 +548,7 @@
     "11": {
       "id": 11,
       "type": "resolutionEditor",
-      "data": "{\"language\":{\"consts\":{\"input\":\"a,b,c,bus99\",\"object\":[\"a\",\"b\",\"c\",\"bus99\"],\"error\":\"\",\"symbols\":[\"a\",\"b\",\"c\",\"bus99\"]},\"funs\":{\"input\":\"\",\"object\":[],\"error\":\"\",\"symbols\":[]},\"preds\":{\"input\":\"C/3,E/2\",\"object\":[[\"C\",3],[\"E\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"C\",\"arity\":3},{\"name\":\"E\",\"arity\":2}]}},\"steps\":{\"order\":[],\"allSteps\":[],\"rank\":[],\"id\":0,\"verdict\":false},\"inputChange\":{\"originValue\":\"\"}}",
+      "data": "{\"language\":{\"consts\":{\"input\":\"a,b,c,bus99\",\"object\":[\"a\",\"b\",\"c\",\"bus99\"],\"error\":\"\",\"symbols\":[\"a\",\"b\",\"c\",\"bus99\"]},\"funs\":{\"input\":\"el/2\",\"object\":[[\"el\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"el\",\"arity\":2}]},\"preds\":{\"input\":\"C/3,E/2\",\"object\":[[\"C\",3],[\"E\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"C\",\"arity\":3},{\"name\":\"E\",\"arity\":2}]}},\"steps\":{\"order\":[0],\"allSteps\":[[0,{\"formula\":{\"input\":\"-C(x,y,s1)\",\"object\":{\"lits\":[{\"neg\":true,\"name\":\"C\",\"terms\":[{\"name\":\"x\"},{\"name\":\"y\"},{\"name\":\"s1\"}]}],\"litsMultiset\":null},\"error\":\"\"},\"rule\":\"Assumption\",\"reference1\":{\"input\":\"\",\"error\":{\"name\":\"EmptyError\",\"message\":\"This field cannot be empty\"}},\"renaming\":{\"input\":\"\",\"error\":\"\"},\"reference2\":{\"input\":\"\",\"error\":{\"name\":\"EmptyError\",\"message\":\"This field cannot be empty\"}},\"unifier\":{\"input\":\"\",\"error\":\"\"},\"valid\":true,\"emptyClause\":false}]],\"rank\":[[0,0]],\"id\":1,\"verdict\":false},\"inputChange\":{\"originValue\":\"\"}}",
       "idCounter": 0,
       "comments": {
         "ids": [],
