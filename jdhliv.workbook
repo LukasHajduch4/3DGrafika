@@ -640,7 +640,7 @@
                         "value": "T  ( g(g(f(a))) ≐ g(b) → g(f(a)) ≐ b )",
                         "references": [
                           "7",
-                          "5"
+                          "6"
                         ]
                       }
                     }
