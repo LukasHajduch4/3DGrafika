@@ -544,6 +544,16 @@
         "ids": [],
         "entities": {}
       }
+    },
+    "11": {
+      "id": 11,
+      "type": "resolutionEditor",
+      "data": null,
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      }
     }
   },
   "cellsOrder": [
@@ -556,6 +566,7 @@
     3,
     4,
     5,
-    6
+    6,
+    11
   ]
 }
