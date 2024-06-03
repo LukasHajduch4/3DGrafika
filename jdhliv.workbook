@@ -618,7 +618,7 @@
                   ]
                 },
                 "child": {
-                  "type": "refl",
+                  "type": "beta",
                   "node": {
                     "id": 6,
                     "value": "T  ( g(a) ≐ g(b) → a ≐ b )",
@@ -626,23 +626,43 @@
                       "2"
                     ]
                   },
-                  "child": {
-                    "type": "leibnitz",
+                  "leftChild": {
+                    "type": "refl",
                     "node": {
                       "id": 7,
-                      "value": "T  a ≐ a",
-                      "references": []
+                      "value": "F g(a) ≐ g(b)",
+                      "references": [
+                        "6"
+                      ]
                     },
                     "child": {
-                      "type": "open",
+                      "type": "leibnitz",
                       "node": {
                         "id": 8,
-                        "value": "T  ( g(g(f(a))) ≐ g(b) → g(f(a)) ≐ b )",
-                        "references": [
-                          "7",
-                          "6"
-                        ]
+                        "value": "T  a ≐ a",
+                        "references": []
+                      },
+                      "child": {
+                        "type": "open",
+                        "node": {
+                          "id": 9,
+                          "value": "T  ( g(g(f(a))) ≐ g(b) → g(f(a)) ≐ b )",
+                          "references": [
+                            "8",
+                            "6"
+                          ]
+                        }
                       }
+                    }
+                  },
+                  "rightChild": {
+                    "type": "open",
+                    "node": {
+                      "id": 10,
+                      "value": "T a ≐ b",
+                      "references": [
+                        "6"
+                      ]
                     }
                   }
                 },
