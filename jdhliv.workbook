@@ -621,12 +621,14 @@
                   "type": "open",
                   "node": {
                     "id": 6,
-                    "value": "T ∀x ∀y ( g(x) ≐ g(y) → x ≐ y )",
-                    "references": []
+                    "value": "T  ( g(a) ≐ g(b) → a ≐ b )",
+                    "references": [
+                      "2"
+                    ]
                   }
                 },
                 "substitution": {
-                  "str": ""
+                  "str": "x->a,y->b"
                 }
               },
               "substitution": {
