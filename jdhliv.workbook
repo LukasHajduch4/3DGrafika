@@ -600,13 +600,37 @@
               "references": []
             },
             "child": {
-              "type": "open",
+              "type": "gamma",
               "node": {
                 "id": 4,
                 "value": "F a ≐ f(g(a))",
                 "references": [
                   "3"
                 ]
+              },
+              "child": {
+                "type": "gammaStar",
+                "node": {
+                  "id": 5,
+                  "value": "T g(f(a)) ≐ a",
+                  "references": [
+                    "1"
+                  ]
+                },
+                "child": {
+                  "type": "open",
+                  "node": {
+                    "id": 6,
+                    "value": "T ∀x ∀y ( g(x) ≐ g(y) → x ≐ y )",
+                    "references": []
+                  }
+                },
+                "substitution": {
+                  "str": ""
+                }
+              },
+              "substitution": {
+                "str": "x->a"
               }
             },
             "substitution": {
