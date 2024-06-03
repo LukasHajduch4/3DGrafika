@@ -621,7 +621,7 @@
                   "type": "refl",
                   "node": {
                     "id": 6,
-                    "value": "T  ( g(a) ≐ g(b) → a ≐ b )",
+                    "value": "T ( g(a) ≐ g(b) → a ≐ b )",
                     "references": [
                       "2"
                     ]
@@ -630,17 +630,17 @@
                     "type": "leibnitz",
                     "node": {
                       "id": 7,
-                      "value": "T  a ≐ a",
+                      "value": "T a ≐ a",
                       "references": []
                     },
                     "child": {
                       "type": "open",
                       "node": {
                         "id": 8,
-                        "value": "T  ( g(g(f(a))) ≐ g(b) → g(f(a)) ≐ b )",
+                        "value": "T a ≐ g(f(a))",
                         "references": [
-                          "7",
-                          "6"
+                          "5",
+                          "7"
                         ]
                       }
                     }
