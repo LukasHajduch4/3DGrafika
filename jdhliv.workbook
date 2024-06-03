@@ -586,11 +586,19 @@
           "references": []
         },
         "child": {
-          "type": "open",
+          "type": "assumption",
           "node": {
             "id": 2,
-            "value": "",
+            "value": "T \\A x g(f(x)) = x",
             "references": []
+          },
+          "child": {
+            "type": "open",
+            "node": {
+              "id": 3,
+              "value": "F  \\A x = f(g(x))",
+              "references": []
+            }
           }
         },
         "config": "Basic propositional"
