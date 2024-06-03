@@ -593,7 +593,7 @@
             "references": []
           },
           "child": {
-            "type": "alpha",
+            "type": "delta",
             "node": {
               "id": 3,
               "value": "F ∀x x ≐ f(g(x))",
@@ -603,9 +603,14 @@
               "type": "open",
               "node": {
                 "id": 4,
-                "value": "",
-                "references": []
+                "value": "F a ≐ f(g(a))",
+                "references": [
+                  "3"
+                ]
               }
+            },
+            "substitution": {
+              "str": "x->a"
             }
           }
         },
