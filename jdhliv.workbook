@@ -574,6 +574,16 @@
         "ids": [],
         "entities": {}
       }
+    },
+    "14": {
+      "id": 14,
+      "type": "tableauEditor",
+      "data": null,
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      }
     }
   },
   "cellsOrder": [
@@ -589,6 +599,7 @@
     6,
     11,
     13,
-    12
+    12,
+    14
   ]
 }
