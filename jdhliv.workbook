@@ -582,26 +582,34 @@
         "type": "assumption",
         "node": {
           "id": 1,
-          "value": "T \\A x g(f(x)) = x",
+          "value": "T ∀x g(f(x)) ≐ x",
           "references": []
         },
         "child": {
           "type": "assumption",
           "node": {
             "id": 2,
-            "value": "T \\A x \\A y g(x) = g(y) ",
+            "value": "T ∀x ∀y ( g(x) ≐ g(y) → x ≐ y )",
             "references": []
           },
           "child": {
-            "type": "open",
+            "type": "alpha",
             "node": {
               "id": 3,
-              "value": "F  \\A x (x = f(g(x)))",
+              "value": "F ∀x x ≐ f(g(x))",
               "references": []
+            },
+            "child": {
+              "type": "open",
+              "node": {
+                "id": 4,
+                "value": "",
+                "references": []
+              }
             }
           }
         },
-        "config": "Basic propositional"
+        "config": "Full FOL"
       },
       "idCounter": 0,
       "comments": {
