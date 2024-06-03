@@ -548,7 +548,7 @@
     "11": {
       "id": 11,
       "type": "resolutionEditor",
-      "data": null,
+      "data": "{\"language\":{\"consts\":{\"input\":\"a,b,c,bus99\",\"object\":[\"a\",\"b\",\"c\",\"bus99\"],\"error\":\"\",\"symbols\":[\"a\",\"b\",\"c\",\"bus99\"]},\"funs\":{\"input\":\"\",\"object\":[],\"error\":\"\",\"symbols\":[]},\"preds\":{\"input\":\"C/3,E/2\",\"object\":[[\"C\",3],[\"E\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"C\",\"arity\":3},{\"name\":\"E\",\"arity\":2}]}},\"steps\":{\"order\":[],\"allSteps\":[],\"rank\":[],\"id\":0,\"verdict\":false},\"inputChange\":{\"originValue\":\"\"}}",
       "idCounter": 0,
       "comments": {
         "ids": [],
