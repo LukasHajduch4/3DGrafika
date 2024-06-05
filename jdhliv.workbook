@@ -670,7 +670,7 @@
     "15": {
       "id": 15,
       "type": "resolutionEditor",
-      "data": null,
+      "data": "{\"language\":{\"consts\":{\"input\":\"a,b,c,bus99\",\"object\":[\"a\",\"b\",\"c\",\"bus99\"],\"error\":\"\",\"symbols\":[\"a\",\"b\",\"c\",\"bus99\"]},\"funs\":{\"input\":\"el/2,prestup/2\",\"object\":[[\"el\",2],[\"prestup\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"el\",\"arity\":2},{\"name\":\"prestup\",\"arity\":2}]},\"preds\":{\"input\":\"C/3,E/2\",\"object\":[[\"C\",3],[\"E\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"C\",\"arity\":3},{\"name\":\"E\",\"arity\":2}]}},\"steps\":{\"order\":[0],\"allSteps\":[[0,{\"formula\":{\"input\":\"-C(x,y,s1) | -C(y,z,s2) | C(x,z,prestup(s1,s2))\",\"object\":{\"lits\":[{\"neg\":true,\"name\":\"C\",\"terms\":[{\"name\":\"x\"},{\"name\":\"y\"},{\"name\":\"s1\"}]},{\"neg\":true,\"name\":\"C\",\"terms\":[{\"name\":\"y\"},{\"name\":\"z\"},{\"name\":\"s2\"}]},{\"neg\":false,\"name\":\"C\",\"terms\":[{\"name\":\"x\"},{\"name\":\"z\"},{\"name\":\"prestup\",\"subts\":[{\"name\":\"s1\"},{\"name\":\"s2\"}]}]}],\"litsMultiset\":null},\"error\":\"\"},\"rule\":\"Assumption\",\"reference1\":{\"input\":\"\",\"error\":{\"name\":\"EmptyError\",\"message\":\"This field cannot be empty\"}},\"renaming\":{\"input\":\"\",\"error\":\"\"},\"reference2\":{\"input\":\"\",\"error\":{\"name\":\"EmptyError\",\"message\":\"This field cannot be empty\"}},\"unifier\":{\"input\":\"\",\"error\":\"\"},\"valid\":true,\"emptyClause\":false}]],\"rank\":[[0,0]],\"id\":1,\"verdict\":false},\"inputChange\":{\"originValue\":\"\"}}",
       "idCounter": 0,
       "comments": {
         "ids": [],
