@@ -666,6 +666,16 @@
         "ids": [],
         "entities": {}
       }
+    },
+    "15": {
+      "id": 15,
+      "type": "resolutionEditor",
+      "data": null,
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      }
     }
   },
   "cellsOrder": [
@@ -682,6 +692,7 @@
     11,
     13,
     12,
+    15,
     14
   ]
 }
