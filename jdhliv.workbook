@@ -470,7 +470,7 @@
                                   "type": "open",
                                   "node": {
                                     "id": 14,
-                                    "value": "F f(f(f(f(a)))) ≐ f(f(f(f(a))))",
+                                    "value": "F f(f(f((a))) ≐ f(f(f(f(a))))",
                                     "references": [
                                       "11",
                                       "13"
