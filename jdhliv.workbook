@@ -627,7 +627,7 @@
                     ]
                   },
                   "child": {
-                    "type": "leibnitz",
+                    "type": "refl",
                     "node": {
                       "id": 7,
                       "value": "T (f(g(a)) = a)",
@@ -640,11 +640,8 @@
                       "type": "open",
                       "node": {
                         "id": 8,
-                        "value": "T a ≐ g(f(a))",
-                        "references": [
-                          "7",
-                          "5"
-                        ]
+                        "value": "T (f(g(a)) = f(g(a)))",
+                        "references": []
                       }
                     }
                   }
