@@ -612,7 +612,7 @@
                 "type": "gammaStar",
                 "node": {
                   "id": 5,
-                  "value": "T g(f(a)) ≐ a",
+                  "value": "T g(f(g(a))) ≐ g(a)",
                   "references": [
                     "1"
                   ]
@@ -651,7 +651,7 @@
                 }
               },
               "substitution": {
-                "str": "x->a"
+                "str": "x->g(a)"
               }
             },
             "substitution": {
