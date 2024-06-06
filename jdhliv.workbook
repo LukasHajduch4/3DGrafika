@@ -630,8 +630,11 @@
                     "type": "leibnitz",
                     "node": {
                       "id": 7,
-                      "value": "T a ≐ a",
-                      "references": []
+                      "value": "T (f(g(a)) = a)",
+                      "references": [
+                        "5",
+                        "6"
+                      ]
                     },
                     "child": {
                       "type": "open",
