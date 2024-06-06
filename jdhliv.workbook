@@ -644,12 +644,19 @@
                         "references": []
                       },
                       "child": {
-                        "type": "open",
+                        "type": "closed",
                         "node": {
                           "id": 9,
                           "value": "T (a = f(g(a)))",
-                          "references": []
-                        }
+                          "references": [
+                            "7",
+                            "8"
+                          ]
+                        },
+                        "closed": [
+                          "4",
+                          "9"
+                        ]
                       }
                     }
                   }
