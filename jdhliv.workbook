@@ -618,10 +618,10 @@
                   ]
                 },
                 "child": {
-                  "type": "refl",
+                  "type": "mp",
                   "node": {
                     "id": 6,
-                    "value": "T (g(f(g(a))) = g(a) -> )",
+                    "value": "T (g(f(g(a))) = g(a) -> f(g(a)) = a)",
                     "references": [
                       "2"
                     ]
@@ -647,7 +647,7 @@
                   }
                 },
                 "substitution": {
-                  "str": "x->a,y->b"
+                  "str": "x->f(g(a)),y->a"
                 }
               },
               "substitution": {
